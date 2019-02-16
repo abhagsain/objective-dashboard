@@ -1,35 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Objectives</title>
-    <link rel="stylesheet" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,500"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="dashboard">
-        <header class="header-title">
-            <span>Main Objectives</span>
-        </header>
-        <div class="dashboard__main">
-            <div class="dashboard__user">
-                <div class="profile">
-                    <div class="image">
-                    </div>
-                    <p class="username">Username</p>
-                </div>
-            </div>
-            <div class="dashboard__content">
-                <div class="objective__table">
-                    
-                </div>
-            </div>
+      <header class="header-title">
+        <span>Main Objectives</span>
+      </header>
+      <div class="dashboard__main">
+        <div class="dashboard__user">
+          <div class="profile">
+            <div class="image"></div>
+            <p class="username">Username</p>
+          </div>
         </div>
+        <div class="dashboard__content">
+          <div class="objective__grid">
+            <div class="objective__heading">
+              Primary Objective
+            </div>
+            <div class="objective__heading">
+              Secondary Objective
+            </div>
+            <div class="objective-primary-wrapper">
+              <div class="objective__content-primary">
+                <div class="primary-desc">
+                  Avg Rating
+                  <span class="primary-desc-text">Meeting Target</span>
+                </div>
+                <div class="primary-target on-target">On Target</div>
+              </div>
+              <div class="objective__content-primary">
+                <div class="primary-desc">
+                  Goals created
+                  <span class="primary-desc-text">Meeting Target</span>
+                </div>
+                <div class="primary-target on-target">On Target</div>
+              </div>
+            </div>
+            <div class="objective-secondary-wrapper">
+              <div class="objective__content-secondary">
+                <div class="secondary-desc">
+                  Chances created
+                  <span class="secondary-desc-text">Meeting Target</span>
+                </div>
+                <div class="secondary-target  on-target">Below Target</div>
+              </div>
+              <div class="objective__content-secondary">
+                <div class="secondary-desc">
+                  Pass %
+                  <span class="secondary-desc-text">
+                    Should be 89% pass percent
+                  </span>
+                </div>
+                <div class="secondary-target  below-target">Below Target</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
